@@ -1,104 +1,104 @@
-var count=0;
-function play() {
-  if(count == 0){
-        count = 1;
-        var audio = document.getElementById("audio");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
-        count = 0;
-        audio.pause();
-        }
-}
 var count1=0;
-function play1() {
-  if(count1 == 0){
-        count1 = 1;
-        var audio = document.getElementById("audio-1");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+function playPause1(){
+    if(count1 == 0){
+        count1 = 1
+        audio1.play();
+        playPauseBTN1.innerHTML = "⏸";
+    }else{
         count1 = 0;
-        audio.pause();
-        }
+        audio1.pause();
+        playPauseBTN1.innerHTML = "►";
+    }
 }
+
+
 var count2=0;
-function play2() {
-  if(count2 == 0){
+function playPause2(){
+    if(count2 == 0){
         count2 = 1;
-        var audio = document.getElementById("audio-2");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+        audio2.play();
+        playPauseBTN2.innerHTML = "⏸";
+    }else{
         count2 = 0;
-        audio.pause();
-        }
+        audio2.pause();
+        playPauseBTN2.innerHTML = "►";
+    }
 }
+
 var count3=0;
-function play3() {
-  if(count3 == 0){
+function playPause3(){
+    if(count3 == 0){
         count3 = 1;
-        var audio = document.getElementById("audio-3");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+        audio3.play();
+        playPauseBTN3.innerHTML = "⏸";
+    }else{
         count3 = 0;
-        audio.pause();
-        }
+        audio3.pause();
+        playPauseBTN3.innerHTML = "►";
+    }
 }
+
 var count4=0;
-function play4() {
-  if(count4 == 0){
+function playPause4(){
+    if(count4 == 0){
         count4 = 1;
-        var audio = document.getElementById("audio-4");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+        audio4.play();
+        playPauseBTN4.innerHTML = "⏸";
+    }else{
         count4 = 0;
-        audio.pause();
-        }
+        audio4.pause();
+        playPauseBTN4.innerHTML = "►";
+    }
 }
+
 var count5=0;
-function play5() {
-  if(count5 == 0){
+function playPause5(){
+    if(count5 == 0){
         count5 = 1;
-        var audio = document.getElementById("audio-5");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+        audio5.play();
+        playPauseBTN5.innerHTML = "⏸";
+    }else{
         count5 = 0;
-        audio.pause();
-        }
+        audio5.pause();
+        playPauseBTN5.innerHTML = "►";
+    }
 }
+
 var count6=0;
-function play6() {
-  if(count6 == 0){
+function playPause6(){
+    if(count6 == 0){
         count6 = 1;
-        var audio = document.getElementById("audio-6");
-          audio.play();
-        audio.loop=True;
-    }
-    else{
+        audio6.play();
+        playPauseBTN6.innerHTML = "⏸";
+    }else{
         count6 = 0;
-        audio.pause();
-        }
-}
-var count7=0;
-function play7() {
-  if(count7 == 0){
-        count7 = 1;
-        var audio = document.getElementById("audio-7");
-          audio.play();
-        audio.loop=True;
+        audio6.pause();
+        playPauseBTN6.innerHTML = "►";
     }
-    else{
+}
+
+var count7=0;
+function playPause7(){
+    if(count7 == 0){
+        count7 = 1;
+        audio7.play();
+        playPauseBTN7.innerHTML = "⏸";
+    }else{
         count7 = 0;
-        audio.pause();
-        }
+        audio7.pause();
+        playPauseBTN7.innerHTML = "►";
+    }
+}
+
+var count8=0;
+function playPause8(){
+    if(count8 == 0){
+        count8 = 1;
+        audio8.play();
+        playPauseBTN8.innerHTML = "⏸";
+    }else{
+        count8 = 0;
+        audio8.pause();
+        playPauseBTN8.innerHTML = "►";
+    }
 }
