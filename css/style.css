@@ -9,7 +9,7 @@
   border:solid 1px;
   margin:30px 20px;
   border-radius: 8%;
-  background-color:#E9D5DA;
+  background-color:#FEB139;
 
 }
 .sound-icon{
@@ -24,8 +24,8 @@
 }
 
 body {
-  background-color:#827397;
-}
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 35%, rgba(0,212,255,1) 100%);}
 
 .navbar-brand {
   font-family: "Montserrat";
