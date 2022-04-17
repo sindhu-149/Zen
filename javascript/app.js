@@ -98,7 +98,7 @@ function play7() {
         audio.loop=True;
     }
     else{
-        count7  = 0;
+        count7 = 0;
         audio.pause();
         }
 }
