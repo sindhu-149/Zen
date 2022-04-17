@@ -9,6 +9,7 @@ function playPause1() {
   } else {
     count1 = 0;
     audio1.pause();
+    document.getElementById('playPauseBTN1').setAttribute("class", "style2");
     // playPauseBTN1.innerHTML = "▶️";
   }
 }
@@ -24,6 +25,7 @@ function playPause2() {
   } else {
     count2 = 0;
     audio2.pause();
+    document.getElementById('playPauseBTN2').setAttribute("class", "style2");
     // playPauseBTN2.innerHTML = "▶️";
   }
 }
@@ -38,6 +40,7 @@ function playPause3() {
   } else {
     count3 = 0;
     audio3.pause();
+      document.getElementById('playPauseBTN3').setAttribute("class", "style2");
     // playPauseBTN3.innerHTML = "▶️";
   }
 }
@@ -52,6 +55,7 @@ function playPause4() {
   } else {
     count4 = 0;
     audio4.pause();
+    document.getElementById('playPauseBTN4').setAttribute("class", "style2");
     // playPauseBTN4.innerHTML = "▶️";
   }
 }
@@ -66,6 +70,7 @@ function playPause5() {
   } else {
     count5 = 0;
     audio5.pause();
+    document.getElementById('playPauseBTN5').setAttribute("class", "style2");
     // playPauseBTN5.innerHTML = "▶️";
   }
 }
@@ -80,6 +85,7 @@ function playPause6() {
   } else {
     count6 = 0;
     audio6.pause();
+    document.getElementById('playPauseBTN6').setAttribute("class", "style2");
     // playPauseBTN6.innerHTML = "▶️";
   }
 }
@@ -94,6 +100,7 @@ function playPause7() {
   } else {
     count7 = 0;
     audio7.pause();
+    document.getElementById('playPauseBTN7').setAttribute("class", "style2");
     // playPauseBTN7.innerHTML = "▶️";
   }
 }
@@ -108,6 +115,7 @@ function playPause8() {
   } else {
     count8 = 0;
     audio8.pause();
+    document.getElementById('playPauseBTN8').setAttribute("class", "style2");
     // playPauseBTN8.innerHTML = "▶️";
   }
 }

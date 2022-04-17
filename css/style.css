@@ -56,7 +56,15 @@ border:solid 1px;
 margin:30px 20px;
 border-radius: 8%;
 }
-
+.style2{
+  padding:50px 25px;
+  width:80%;
+  text-align: center;
+  border:solid 1px;
+  margin:30px 20px;
+  border-radius: 8%;
+  background-color:#ECA3F5;
+}
 
 /* container */
 
