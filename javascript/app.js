@@ -119,3 +119,13 @@ function playPause8() {
     // playPauseBTN8.innerHTML = "▶️";
   }
 }
+
+
+// Random shuffle
+var functions=[ playPause1, playPause2, playPause3, playPause4, playPause5, playPause6, playPause7, playPause8];
+function randomNumber(n) {
+	return Math.floor( Math.random() * n);
+}
+function randomsongs(){
+functions[ randomNumber( functions.length ) ]();
+}
