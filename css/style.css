@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-@import (max-width:1028px){
-  .container:
 
-
-}
 
 html, body {
   margin:0;
@@ -69,4 +65,12 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 .zen-title{
   margin-left:50px;
+}
+
+/* audio button */
+.audio-playButton{
+  border-radius: 10%;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: -45px;
 }

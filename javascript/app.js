@@ -3,11 +3,11 @@ function playPause1(){
     if(count1 == 0){
         count1 = 1
         audio1.play();
-        playPauseBTN1.innerHTML = "⏸";
+
     }else{
         count1 = 0;
         audio1.pause();
-        playPauseBTN1.innerHTML = "►";
+
     }
 }
 
@@ -17,11 +17,11 @@ function playPause2(){
     if(count2 == 0){
         count2 = 1;
         audio2.play();
-        playPauseBTN2.innerHTML = "⏸";
+
     }else{
         count2 = 0;
         audio2.pause();
-        playPauseBTN2.innerHTML = "►";
+
     }
 }
 
@@ -30,11 +30,11 @@ function playPause3(){
     if(count3 == 0){
         count3 = 1;
         audio3.play();
-        playPauseBTN3.innerHTML = "⏸";
+
     }else{
         count3 = 0;
         audio3.pause();
-        playPauseBTN3.innerHTML = "►";
+
     }
 }
 
@@ -43,11 +43,11 @@ function playPause4(){
     if(count4 == 0){
         count4 = 1;
         audio4.play();
-        playPauseBTN4.innerHTML = "⏸";
+
     }else{
         count4 = 0;
         audio4.pause();
-        playPauseBTN4.innerHTML = "►";
+
     }
 }
 
@@ -56,11 +56,11 @@ function playPause5(){
     if(count5 == 0){
         count5 = 1;
         audio5.play();
-        playPauseBTN5.innerHTML = "⏸";
+
     }else{
         count5 = 0;
         audio5.pause();
-        playPauseBTN5.innerHTML = "►";
+
     }
 }
 
@@ -69,11 +69,11 @@ function playPause6(){
     if(count6 == 0){
         count6 = 1;
         audio6.play();
-        playPauseBTN6.innerHTML = "⏸";
+
     }else{
         count6 = 0;
         audio6.pause();
-        playPauseBTN6.innerHTML = "►";
+
     }
 }
 
@@ -82,11 +82,11 @@ function playPause7(){
     if(count7 == 0){
         count7 = 1;
         audio7.play();
-        playPauseBTN7.innerHTML = "⏸";
+
     }else{
         count7 = 0;
         audio7.pause();
-        playPauseBTN7.innerHTML = "►";
+
     }
 }
 
@@ -95,10 +95,10 @@ function playPause8(){
     if(count8 == 0){
         count8 = 1;
         audio8.play();
-        playPauseBTN8.innerHTML = "⏸";
+
     }else{
         count8 = 0;
         audio8.pause();
-        playPauseBTN8.innerHTML = "►";
+    
     }
 }
