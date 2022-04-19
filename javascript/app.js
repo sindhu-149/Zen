@@ -4,6 +4,7 @@ function playPause1() {
   if (count1 == 0) {
     count1 = 1
     audio1.play();
+		audio1.loop=true;
     document.getElementById('playPauseBTN1').setAttribute("class", "style1");
     // playPauseBTN1.innerHTML = "⏸";
   } else {
@@ -21,6 +22,7 @@ function playPause2() {
   if (count2 == 0) {
     count2 = 1;
     audio2.play();
+		audio2.loop=true;
     document.getElementById('playPauseBTN2').setAttribute("class", "style1");
   } else {
     count2 = 0;
@@ -36,6 +38,7 @@ function playPause3() {
   if (count3 == 0) {
     count3 = 1;
     audio3.play();
+		audio3.loop=true;
     document.getElementById('playPauseBTN3').setAttribute("class", "style1");
   } else {
     count3 = 0;
@@ -51,6 +54,7 @@ function playPause4() {
   if (count4 == 0) {
     count4 = 1;
     audio4.play();
+		audio4.loop=true;
     document.getElementById('playPauseBTN4').setAttribute("class", "style1");
   } else {
     count4 = 0;
@@ -66,6 +70,7 @@ function playPause5() {
   if (count5 == 0) {
     count5 = 1;
     audio5.play();
+		audio5.loop=true;
     document.getElementById('playPauseBTN5').setAttribute("class", "style1");
   } else {
     count5 = 0;
@@ -81,6 +86,7 @@ function playPause6() {
   if (count6 == 0) {
     count6 = 1;
     audio6.play();
+		audio6.loop=true;
     document.getElementById('playPauseBTN6').setAttribute("class", "style1");
   } else {
     count6 = 0;
@@ -96,6 +102,7 @@ function playPause7() {
   if (count7 == 0) {
     count7 = 1;
     audio7.play();
+		audio7.loop=true;
     document.getElementById('playPauseBTN7').setAttribute("class", "style1");
   } else {
     count7 = 0;
@@ -111,6 +118,7 @@ function playPause8() {
   if (count8 == 0) {
     count8 = 1;
     audio8.play();
+		audio8.loop=true;
     document.getElementById('playPauseBTN8').setAttribute("class", "style1");
   } else {
     count8 = 0;
